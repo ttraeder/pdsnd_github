@@ -26,23 +26,23 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True: ### While loop for city name OR USE TRY #####
-        print('Which city? Chicago, New York City or Washington') #Message to the user#
-        city = input().lower() #Receive the data from the user and keeping#
+        #print('Which city? Chicago, New York City or Washington') #Message to the user#
+        city = input('Which city? Chicago, New York City or Washington').lower() #Receive the data from the user and keeping#
         if city in cities: ## checking if the typed data is allowed to be used, handling typing error###
           break
         print('{} is an invalid city...Try again'.format(city)) ## DIsplay to the user that he is trying to used an invalid city, echoing his choice
     # TO DO: get user input for month (all, january, february, ... , june)
     while True: ## Loop to get the month or all ###
-        print('Which month? Range: January to June or All')
-        month = input().lower() ## Avoid case sensitivity
+        #print('Which month? Range: January to June or All')
+        month = input('Which month? Range: January to June or All').lower() ## Avoid case sensitivity
         if month in months:
             break;
         print('{} is an invalid month...Try again'.format(month))
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        print('Which day? Range: Monday to Sunday or All')
-        day = input().lower() ## Avoid case sensitivity##
+        #print('Which day? Range: Monday to Sunday or All')
+        day = input('Which day? Range: Monday to Sunday or All').lower() ## Avoid case sensitivity##
         if day in days:
             break;
         print('{} is an invalid month...Try again'.format(day))
