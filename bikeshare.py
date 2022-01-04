@@ -221,12 +221,12 @@ def main():
     loop = True
 
     while loop == True:
-        city, month, day = get_filters() #Done
-        df = load_data(city, month, day) #Done
-        time_stats(df) #Done
-        station_stats(df) #Done
-        trip_duration_stats(df) #Done
-        user_stats(df) #Done
+        city, month, day = get_filters() #Done and tested
+        df = load_data(city, month, day) #Done and tested
+        time_stats(df) #Done and tested
+        station_stats(df) #Done and tested
+        trip_duration_stats(df) #Done and tested
+        user_stats(df) #Done and tested
         show_raw(df)
 
         loop = restart()
