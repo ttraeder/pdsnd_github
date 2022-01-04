@@ -11,8 +11,8 @@ This project basically allows you to understand more about the use of rented bik
 You be allowed to choose which city you want to have the data, also you are allowed to choose the months (from January to June or all of them) and you can choose the day of the week (Monday to Sunday or all of them).
 
 After choosing the city, months and days the code outputs:
-- Most common month used and how many travels occurred;
-- Most common day of the week and how many travels occurred;
+- Most common month used and how many travels occurred, if possible;
+- Most common day of the week and how many travels occurred, if possible;
 - Most common hour of start and how many travels occurred;
 - Most common start station and how many travels occurred;
 - Most common end Station and how many travels occurred;
