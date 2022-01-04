@@ -33,16 +33,16 @@ def get_filters():
         print('{} is an invalid city...Try again'.format(city)) ## DIsplay to the user that he is trying to used an invalid city, echoing his choice
     # TO DO: get user input for month (all, january, february, ... , june)
     while True: ## Loop to get the month or all ###
-        print('Which month? Range: January to June or All')
-        month = input().lower() ## Avoid case sensitivity
+        #print('Which month? Range: January to June or All')
+        month = input('Which month? Range: January to June or All').lower() ## Avoid case sensitivity
         if month in months:
             break;
         print('{} is an invalid month...Try again'.format(month))
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        print('Which day? Range: Monday to Sunday or All')
-        day = input().lower() ## Avoid case sensitivity##
+        #print('Which day? Range: Monday to Sunday or All')
+        day = input('Which day? Range: Monday to Sunday or All').lower() ## Avoid case sensitivity##
         if day in days:
             break;
         print('{} is an invalid month...Try again'.format(day))
