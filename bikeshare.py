@@ -26,8 +26,8 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True: ### While loop for city name OR USE TRY #####
-        print('Which city? Chicago, New York City or Washington') #Message to the user#
-        city = input().lower() #Receive the data from the user and keeping#
+        #print('Which city? Chicago, New York City or Washington') #Message to the user#
+        city = input('Which city? Chicago, New York City or Washington').lower() #Receive the data from the user and keeping#
         if city in cities: ## checking if the typed data is allowed to be used, handling typing error###
           break
         print('{} is an invalid city...Try again'.format(city)) ## DIsplay to the user that he is trying to used an invalid city, echoing his choice
